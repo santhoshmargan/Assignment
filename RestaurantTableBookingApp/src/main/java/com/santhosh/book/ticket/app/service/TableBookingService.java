@@ -50,7 +50,6 @@ public class TableBookingService {
 					tableBookingDao.save(tempObj);
 				}
 			}
-			
 			List<RestaurantTable> currentTablesAvl = (List<RestaurantTable>) tableBookingDao.findAll();
 			RestaurantTable tableRemaining = getRemainingTables(currentTablesAvl);
 			RestaurantTable saveTable = new RestaurantTable();

@@ -199,7 +199,6 @@ public class TableBookingService {
 		}
 		return tablesRemaining;
 	}
-	
 	// Generating tables at first book table api call
 	private static List<RestaurantTable> generateTables() {
 		int n = 0;
